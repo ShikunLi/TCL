@@ -1,7 +1,8 @@
 # <a target="_blank"> Trustable Co-label Learning from Multiple Noisy Annotators </a> 
 
 ### Download Datasets
-Download the training dataset with annotations from the corresponding link and put the prepared data into ./data folder 
+Download the training dataset with annotations from the corresponding link and put the prepared data into ./data folder
+
 [LabelMe-AMT](http://fprodrigues.com//deep_LabelMe.tar.gz)
 
 ### Running the code:
