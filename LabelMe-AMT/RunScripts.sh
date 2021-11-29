@@ -1,0 +1,2 @@
+python3 train.py --lr 0.0001 --batch_size 128 --pre_train_data_epoch 2 --max_round 30  --each_round_data_epoch 1 --retrain_data_epoch 20 --finetuning_epoch 10 \
+--cuda_dev 0 --num_of_traning_times 1 --input_address './data/prepared/' --output_address './output/' --experiment_name 'labelme'
