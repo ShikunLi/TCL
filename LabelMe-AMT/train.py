@@ -157,7 +157,7 @@ def retrain_data_model(train_loader,val_loader,test_loader):
         finetuning(val_loader,data_model_1,optimizer_1)
         test_data=evaluate(test_loader,data_model_1)
         print('Retrain data Epoch [%d/%d] Test Accuracy on the %s test images: test_data%.4f %%' \
-          % (epoch+1, 20, N_TEST, test_data)) 
+          % (epoch+1, args.finetuning_epoch, N_TEST, test_data)) 
 
 def finetuning(val_loader,data_model_1,optimizer_1):
     data_model_1.train()
